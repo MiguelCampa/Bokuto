@@ -4,6 +4,7 @@
  */
 package mx.itson.bokuto.entidades;
 
+import com.google.gson.annotations.SerializedName;
 import java.util.Date;
 
 /**
@@ -13,7 +14,10 @@ import java.util.Date;
 public class Forecast {
     
   private Date day;  
-  private int maxTemperature;
-  private int minTemperature;  
-    
-}
+  
+  @SerializedName("max_temérature")
+   private int maxTemperature;
+  @SerializedName("min_temperature")
+  private int minTemperature;   
+
+  }
