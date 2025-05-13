@@ -88,14 +88,14 @@ public class Weather {
     /**
      * @return the forecas
      */
-    public List<Forecast> getForecas() {
+    public List<Forecast> getForecast() {
         return forecast;
     }
 
     /**
      * @param forecast the forecas to set
      */
-    public void setForecas(List<Forecast> forecast) {
+    public void setForecast(List<Forecast> forecast) {
         this.forecast = forecast;
     }
     
